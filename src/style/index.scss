@@ -1,6 +1,23 @@
 @import "bootstrap";
 @import "../components/App/Principal/Principal.scss";
 @import "../components/App/Info/Info.scss";
+@import "../components/App/Header/Header.scss";
 
+#app {
+    height:100%;
+    width:100%;
+}
 
+.Contenedor{
+    height:100%;
+    width:100%;
+}
+
+.Header {
+    width:100%;
+}
+
+html, body{
+    height:100%;
+}
 $bg-dark: #111b29;

@@ -1,0 +1,36 @@
+.barra{
+    width:100%;
+}
+
+.navbar-fondo {
+    background-color: #212c42;
+}
+
+.Logo {
+    filter: brightness(0) invert(1);
+    width:10%; 
+    height: 10%;
+    margin-left: 7%;
+}
+
+.botones{
+    margin-right: 7%;
+    width: auto;
+    height: auto;
+    text-align: left;
+}
+
+.LogIn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    opacity: 50%;
+    vertical-align: baseline;
+    &:hover{
+        opacity: 70%;
+    }
+}
+
+.joinNow{
+
+}

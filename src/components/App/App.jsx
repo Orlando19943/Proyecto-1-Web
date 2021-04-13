@@ -5,10 +5,10 @@ import Info from "./Info/Info";
 
 export default function App() {
   return (
-    <div className="row">
-      <Header />
-      <Principal />
-      <Info />
+    <div className="Contenedor">
+      <div className="Header">
+        <Header />
+      </div>
     </div>
   );
 }
