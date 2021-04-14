@@ -1,6 +1,7 @@
 .barra{
     width:100%;
-    height:80%;
+    position: fixed;
+    z-index: 1;
 }
 
 .navbar-fondo {
@@ -26,8 +27,11 @@
     border: none;
     color: white;
     opacity: 50%;
-    margin-right: 10%;
+    margin-right: 15%;
     font-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &:hover{
         opacity: 70%;
         cursor: pointer;
@@ -35,9 +39,17 @@
 }
 
 .joinNow{
-    width: 100%;
-    height: auto;
-    font-size: 100%;
+    width: 20vh;
+    height: 5vh;
+    size: 100%;
+    font-size: 80%;
+    box-sizing: content-box;
+    border-radius: 5%;
+    background-color: #88cc14;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &:hover{
         cursor: pointer;
     }
@@ -45,9 +57,9 @@
 
 .tamaño{
     border: none;
+    background-color: #88cc14;
     border-radius: 5%;
     color: white;
     width: auto;
     height: auto;
-    background-color: #88cc14;
 }

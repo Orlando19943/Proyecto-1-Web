@@ -9,6 +9,12 @@ export default function App() {
       <div className="Header">
         <Header />
       </div>
+      <div className="Principal">
+        <Principal />
+      </div>
+      <div className="Info BackGroundInfo">
+        <Info />
+      </div>
     </div>
   );
 }

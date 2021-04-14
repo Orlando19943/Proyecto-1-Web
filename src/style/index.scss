@@ -3,21 +3,28 @@
 @import "../components/App/Info/Info.scss";
 @import "../components/App/Header/Header.scss";
 
-#app {
-    height:100%;
-    width:100%;
-}
-
 .Contenedor{
     height:100%;
     width:100%;
 }
-
+#app{
+    background-color:#fafafa;
+}
 .Header {
+    width:100%;
+}
+.Principal{
+    width:auto;
+}
+.Info{
     width:100%;
 }
 
 html, body{
     height:100%;
+}
+
+.fondo {
+    background-color:#111b29;
 }
 $bg-dark: #111b29;

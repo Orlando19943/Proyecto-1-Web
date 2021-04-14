@@ -7,7 +7,7 @@ export default function Principal() {
       <nav className="navbar navbar-expand-sm navbar-fondo">
         <div className="container-fluid">
           <img className="Logo" src={logo} alt="logo" />
-          <button className="navbar-toggler" type=" " data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
@@ -16,9 +16,9 @@ export default function Principal() {
                 <div className="a">Login </div>
               </li>
               <li className="nav-item joinNow">
-                <button className="tamaño">
+                <button type="button" className="tamaño">
                   <div>
-                    JoinNow
+                    Join Now
                   </div>
                 </button>
               </li>
