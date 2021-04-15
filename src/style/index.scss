@@ -2,6 +2,7 @@
 @import "../components/App/Principal/Principal.scss";
 @import "../components/App/Info/Info.scss";
 @import "../components/App/Header/Header.scss";
+@import "../components/App/Final/Final.scss";
 
 .Contenedor{
     height:100%;
@@ -14,7 +15,10 @@
     width:100%;
 }
 .Principal{
-    width:auto;
+    height:calc(100vh - 0px);
+}
+.Final{
+    height:calc(100vh - 0px);
 }
 .Info{
     width:100%;

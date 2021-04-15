@@ -1,5 +1,5 @@
 .BackGround{
-    height: 60%;
+    height:calc(100vh - 0px);
     width: 100%;
     background-color: #111b29;
 }
@@ -13,15 +13,13 @@
 }
 
 .imagenFondo{
-    bottom: 0%;
-    vertical-align:bottom;
+    height: 100%;
 }
 
 .imagen{
-    bottom: 0%;
+    position: absolute;
     width: 100%;
-    height: 100%;
-    vertical-align:bottom;
-    margin-bottom: 0;
+    opacity: 0.55;
+    bottom: -5%;
 }
 

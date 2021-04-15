@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header/Header";
 import Principal from "./Principal/Principal";
 import Info from "./Info/Info";
+import Final from "./Final/Final";
 
 export default function App() {
   return (
@@ -14,6 +15,9 @@ export default function App() {
       </div>
       <div className="Info BackGroundInfo">
         <Info />
+      </div>
+      <div className="Final">
+        <Final />
       </div>
     </div>
   );
