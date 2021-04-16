@@ -13,10 +13,10 @@ export default function App() {
       <div className="Principal">
         <Principal />
       </div>
-      <div className="Info BackGroundInfo">
+      <div className="Info">
         <Info />
       </div>
-      <div className="Final">
+      <div className="s">
         <Final />
       </div>
     </div>

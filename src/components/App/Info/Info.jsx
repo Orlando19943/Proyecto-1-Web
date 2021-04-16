@@ -97,7 +97,7 @@ export default function Principal() {
         <hr className="separacion" />
         <div className="row">
           <div className="col-4 imgBook">
-            <img className="img-fluid" src={book} alt="Logo" width="auto" />
+            <img className="img-fluid" src={book} alt="Logo" width="1000" />
           </div>
           <div className="col textoBook">
             <p className="titulo1">TryHackMe for Teachings</p>
@@ -175,7 +175,7 @@ export default function Principal() {
           </div>
         </div>
         <hr className="separacion" />
-        <div>
+        <div className="container">
           <Cards />
         </div>
       </div>
