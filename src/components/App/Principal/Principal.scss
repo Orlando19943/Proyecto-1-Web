@@ -2,15 +2,19 @@
     height:calc(100vh - 0px);
     width: 100%;
     background-color: #111b29;
+    display: flex;
+    align-items: center;
     .presentacion{
         width: 100%;
         height: 100%;
         display: flex;
-        align-items: center
+        align-items: center;
     }
     .container{
         width: 80%;
         height: 50%;
+        position:relative;
+        z-index:1;
     }
 }
 
@@ -22,15 +26,16 @@
 }
 
 .imagenFondo{
-    height: 100%;
+    width: 100%;
+    position:relative;
+    z-index:1;
 }
 
 .imagen{
-    position: absolute;
     width: 100%;
     opacity: 0.55;
-    bottom: -5%;
 }
+
 .imagen2{
     width:17vh;
     height:17vh;
@@ -68,6 +73,13 @@
 
 .espaciado{
     margin-top: 6.5%;
+}
+
+.estrellass{
+    width: 100%;
+    height: 100%;
+    position:relative;
+    z-index:0;
 }
 
 @keyframes float {
