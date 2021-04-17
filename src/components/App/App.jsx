@@ -16,7 +16,7 @@ export default function App() {
       <div className="Info">
         <Info />
       </div>
-      <div className="s">
+      <div className="Final">
         <Final />
       </div>
     </div>

@@ -29,11 +29,3 @@ export default function Principal() {
     </div>
   );
 }
-
-{ /* <div className="barra">
-    <nav className="navbar navbar-fondo">
-      <img className="Logo" src={logo} alt="logo" />
-      <div className="botones LogIn">Login</div>
-      <div className="botones LogIn">Join Now</div>
-    </nav>
-  </div> */ }

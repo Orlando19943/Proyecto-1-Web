@@ -16,13 +16,17 @@
 }
 .Principal{
     height:calc(100vh - 0px);
+    overflow: hidden;
+    padding: 0%;
 }
 .Final{
-    height:calc(100vh - 0px);
+    position:relative;
+    overflow: hidden;
 }
 .Info{
     width:100%;
-    
+    position:relative;
+    z-index: 100;
 }
 
 html, body{

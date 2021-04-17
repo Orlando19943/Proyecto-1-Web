@@ -1,14 +1,13 @@
 import React from "react";
 import fondo from "../../../imagenes/waves.svg";
-import estrellas from "../../../imagenes/star-pattern.svg";
 import guides from "../../../imagenes/Principal/tryhackme_cloudguide.svg";
 import challenges from "../../../imagenes/Principal/tryhackme_cloudctf.svg";
+import star from "../../../imagenes/star-pattern.svg";
 
 export default function Principal() {
   return (
     <div className="BackGround">
       <div className="presentacion">
-        <img className="estrellas" src={estrellas} alt="estrellas" />
         <div className="container">
           <div className="todoEspacio">
             <div className="row justify-content-center align-items-center">
@@ -33,8 +32,6 @@ export default function Principal() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="imagenFondo">
         <img className="imagen" src={fondo} alt="logo" />
       </div>
     </div>
