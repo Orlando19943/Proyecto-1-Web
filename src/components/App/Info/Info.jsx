@@ -31,7 +31,7 @@ export default function Principal() {
         </div>
         <hr className="separacion" />
         <div className="row">
-          <div className="col">
+          <div className="col-5">
             <p className="titulo1">Learn, Practice and Complete</p>
             <div className="lineaVerde" />
             <p className="texto1">
@@ -41,7 +41,7 @@ export default function Principal() {
               environment by completing guided, objective-based tasks.
             </p>
           </div>
-          <div className="col">
+          <div className="col-7">
             <Carousel />
           </div>
         </div>
@@ -175,7 +175,7 @@ export default function Principal() {
           </div>
         </div>
         <hr className="separacion" />
-        <div className="container">
+        <div className="row">
           <Cards />
         </div>
       </div>

@@ -3,6 +3,8 @@
 @import "../components/App/Info/Info.scss";
 @import "../components/App/Header/Header.scss";
 @import "../components/App/Final/Final.scss";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 .Contenedor{
     height:100%;
@@ -21,7 +23,6 @@
     padding: 0%;
 }
 .Final{
-    position:relative;
     overflow: hidden;
 }
 .Info{
