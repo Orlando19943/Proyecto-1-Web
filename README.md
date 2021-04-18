@@ -13,7 +13,7 @@ Construir la carpeta "dist", la cual se genera gracias a WebPack. En dicha carpe
 ```
 npm run build
 ```
-Este comando permite ejecutar el programa en la dirección ip: 127.0.0.0:8080 o en localhost:8080. Copia cualquiera de las dos direcciones en tu navegador y se abrirá el programa
+Este comando permite ejecutar el programa en la dirección ip: 127.0.0.1:8080 o en localhost:8080. Copia cualquiera de las dos direcciones en tu navegador y se abrirá el programa
 ```
 npm run start
 ```
