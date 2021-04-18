@@ -15,11 +15,35 @@
 
 .Logo {
     filter: brightness(0) invert(1);
-    width: 7%; 
-    height: 7%;
+    width: 15vh; 
+    height: 9vh;
     margin-left: 21%;
+    &:hover{
+        cursor: pointer;
+    }
 }
 
+@media screen and (max-width: 800px){
+    .Logo{
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 1500px){
+    .Logo{
+        margin-left: 0;
+        opacity: 0;
+    }
+    .contenedorIconos{
+        p{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 575px){
+    .contenedorIconos{
+            display: none;
+    }
+}
 .botones{
     width: auto;
     height: auto;
@@ -44,11 +68,10 @@
 }
 
 .joinNow{
-    width: 20vh;
-    height: 5vh;
+    width: 12vh;
+    height: 4vh;
     size: 100%;
     font-size: 80%;
-    box-sizing: content-box;
     border-radius: 5%;
     background-color: #88cc14;
     text-align: center;
@@ -67,4 +90,41 @@
     color: white;
     width: auto;
     height: auto;
+}
+
+.contenedorIconos{
+    width: 20%;
+    height: 3.5vh;
+    color: white;
+    opacity: 0.5;
+    position: relative;
+    text-align: center;
+    left: 1%;
+    margin-right: auto;
+    transition: all .5s ease-in-out;
+    p{
+        font-size: 1.8vh;
+    }
+    &:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .iconos{
+        width:3.5vh;
+        height:3.5vh;
+    }
+}
+
+.contenedorIconosNone{
+    display:none;
+    transition: all .5s ease-in-out;
+}
+
+.contenedorPrincipal{
+    width: 100%;
+}
+
+.whiteColor{
+    color:white;
 }
