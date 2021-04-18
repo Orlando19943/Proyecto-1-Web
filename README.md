@@ -2,7 +2,6 @@
 Este proyecto consiste en escoger una página ya existente y copiar el diseño. Para este caso se escogio la página
 [TryHackMe](https://tryhackme.com/)
 ![TryHackMe](./src/imagenes/ReadMe/Principal.jpg)
-<<<<<<< HEAD
 
 ## Para ejecutar el programa
 Los comandos para poder ejecutar el programa son los siguientes (Nota: es importante tener instalado NodeJs para utilizar los siguientes comandos):
@@ -34,5 +33,3 @@ Orlando Osberto Cabrera Mejía #19943
 Fecha de inicio: 8 de abril del 2021
 
 Fecha de finalización: 18 de abril del 2021
-=======
->>>>>>> main
