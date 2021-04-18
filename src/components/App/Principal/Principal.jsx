@@ -2,7 +2,6 @@ import React from "react";
 import fondo from "../../../imagenes/waves.svg";
 import guides from "../../../imagenes/Principal/tryhackme_cloudguide.svg";
 import challenges from "../../../imagenes/Principal/tryhackme_cloudctf.svg";
-import star from "../../../imagenes/star-pattern.svg";
 
 export default function Principal() {
   return (

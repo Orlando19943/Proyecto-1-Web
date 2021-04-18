@@ -1,11 +1,9 @@
 import React from "react";
 import logo from "../../../imagenes/tryhackme_logo.png";
-import star from "../../../imagenes/star-pattern.svg";
 
 export default function Final() {
   return (
     <div className="BackGroundFinal justify-content-center">
-      <img className="estrellas" src={star} alt="logo" />
       <div className="container row justify-content-center align-items-center">
         <div className="col-3 imagenLogo">
           <img className="LogoF" src={logo} alt="logo" />

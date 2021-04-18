@@ -1,14 +1,15 @@
 .BackGroundFinal{
     height:23vh;
     width: 100%;
+    background: url(https://assets.tryhackme.com/img/svgs/star-pattern.svg);
     background-color: #111b29;
     bottom:0;
     display: flex;
     
     .estrellas{
-        width: 100%;
         position: absolute;
         z-index: 0;
+        width: 2000px;
     }
 
     .imagenLogo{
